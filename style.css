@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono,Lora);
+
+#vizSelect{
+	font-family: 'Lora',serif;
+	font-size: 18px;
+	background-color: white;
+}
+
+.axis text {
+  font: 14px 'Lora',serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke:black;
+  stroke-width:1px;
+  shape-rendering: crispEdges;
+}
+
+.x.axis line{
+  stroke: #000;
+}
+
+.y.axis line{
+  stroke:orange;
+  stroke-width:2px;
+}
+
+.lab{
+	font-size: 11px;
+	font-family: 'Ubuntu Mono',arial,sans-serif;
+}
+
+.swim{
+	fill-opacity:0;
+	cursor:pointer;
+	fill:rgb(139,137,137);
+}
+.swim.odd{
+	fill-opacity:.2;
+}
+.bar{
+	cursor:pointer;
+}
+
+svg{
+	overflow:hidden;
+}
