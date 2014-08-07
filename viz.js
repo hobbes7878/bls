@@ -72,6 +72,41 @@ var svg = d3.select("#viz").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+// Define gradients for positive and negative numbers
+var gradient = svg.append("svg:defs")
+    .append("svg:linearGradient")
+    .attr("id", "redgradient")
+    .attr("x1", "0%")
+    .attr("y1", "0%")
+    .attr("x2", "100%")
+    .attr("y2", "100%")
+    .attr("spreadMethod", "pad");
+gradient.append("svg:stop")
+    .attr("offset", "0%")
+    .attr("stop-color", "#FFCCCC")
+    .attr("stop-opacity", 1);
+gradient.append("svg:stop")
+    .attr("offset", "100%")
+    .attr("stop-color", "#880000")
+    .attr("stop-opacity", 1);
+
+var gradient = svg.append("svg:defs")
+    .append("svg:linearGradient")
+    .attr("id", "bluegradient")
+    .attr("x1", "0%")
+    .attr("y1", "0%")
+    .attr("x2", "100%")
+    .attr("y2", "100%")
+    .attr("spreadMethod", "pad");
+gradient.append("svg:stop")
+    .attr("offset", "0%")
+    .attr("stop-color", "#325C74")
+    .attr("stop-opacity", 1);
+gradient.append("svg:stop")
+    .attr("offset", "100%")
+    .attr("stop-color", "#E0EEEE")
+    .attr("stop-opacity", 1);
+
 
 /*Transition speed in ms*/
 var trans = 1000;
@@ -168,7 +203,7 @@ function chart(data){
     bars
       .attr("class", function(d) { return d.residual < 0 ? "bar negative "+d.naics_code : "bar positive "+d.naics_code; })
     .transition().duration(trans)
-      .style("fill", function(d) { return d.residual < 0 ? "steelblue" : "#880000"; })
+      .style("fill", function(d) { return d.residual < 0 ? "url(#bluegradient)" : 'url(#redgradient)'; })
       .attr("y", function(d) { return y(d.sector)+5; })
       .attr("height", 20)
       .attr("x", function(d) { return x(Math.min(0, d.residual)); })

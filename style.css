@@ -38,7 +38,7 @@
 	fill:rgb(139,137,137);
 }
 .swim.odd{
-	fill-opacity:.2;
+	fill-opacity:.1;
 }
 .bar{
 	cursor:pointer;
