@@ -167,8 +167,8 @@ function chart(data){
     /*UPDATE the elements with bound data. This is where you use the data to define those attributes that depend on it. Adding a transition makes d3 change the properties below via a */
     bars
       .attr("class", function(d) { return d.residual < 0 ? "bar negative "+d.naics_code : "bar positive "+d.naics_code; })
-      .style("fill", function(d) { return d.residual < 0 ? "steelblue" : "#880000"; })
     .transition().duration(trans)
+      .style("fill", function(d) { return d.residual < 0 ? "steelblue" : "#880000"; })
       .attr("y", function(d) { return y(d.sector)+5; })
       .attr("height", 20)
       .attr("x", function(d) { return x(Math.min(0, d.residual)); })
