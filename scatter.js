@@ -309,7 +309,7 @@ sk_svg.append("line")
     .attr('y2',h-10);
 sk_svg.append("text")
 	.attr("class","chartkey")
- 	.text("Expected workplace deaths based on national average.")
+ 	.text("Expected workplace deaths based on national averages.")
 	.attr("transform", "translate(" + sk_margin.l + "," + sk_margin.t + ")")
 	.attr("x", 32)
 	.attr("y", h-6);
