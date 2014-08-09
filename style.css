@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono,Lora);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Cousine|Roboto|Ubuntu+Mono|Lora);
 
 #vizSelect{
 	font-family: 'Lora',serif;
@@ -7,22 +7,22 @@
 }
 
 .axis text {
-  font: 14px 'Lora',serif;
+  font: 14px 'Roboto',arial,sans-serif;
 }
 
 .axis path,
-.axis line {
+ .axis line {
   fill: none;
   stroke:black;
   stroke-width:1px;
   shape-rendering: crispEdges;
 }
 
-.x.axis line{
+#barChart  .x.axis line{
   stroke: #000;
 }
 
-.y.axis line{
+#barChart .y.axis line{
   stroke:orange;
   stroke-width:2px;
 }
@@ -46,4 +46,145 @@
 
 svg{
 	overflow:hidden;
+}
+
+
+/*Scatter plot styles*/
+#scatterChart text{
+	font:13px arial;
+}
+
+.circles { 
+	opacity: .7; 
+	stroke: black;
+	stroke-opacity:1;
+}
+
+.tipsy { font-size:11px; margin-top:-14px;}
+
+.guide line {
+  fill: none;
+  stroke: #000;
+  stroke-width:2px;
+  shape-rendering: crispEdges;
+  opacity: 0.1;
+}
+
+.trendline {
+  fill: none;
+  stroke: red;
+  stroke-width:1.5px;
+  stroke-dasharray: 10,10;
+  opacity: 1;
+}
+.trendlinekey {
+  fill: none;
+  stroke: red;
+  stroke-width:1.5px;
+  stroke-dasharray: 5,5;
+  
+  opacity: 1;
+}
+.chartkey{
+  font: 14px sans-serif;
+}
+.compline {
+  fill: none;
+  stroke-width:.5px;
+  stroke: grey;
+  opacity: .5;
+}
+.complinekey {
+  fill: none;
+  stroke-width:.5px;
+  stroke: grey;
+  opacity: .5;
+}
+
+
+#scatterChart .label{
+	font-size: 16px;
+	font-family: 'Ubuntu Mono',arial,sans-serif;
+}
+
+#scatterChart text.scatter_lab{
+	font-size: 20px;
+	font-family: 'Ubuntu Mono',arial,sans-serif;
+}
+#scatterChart text.guide_text{
+	font-size: 12px;
+	font-family: 'Ubuntu Mono',arial,sans-serif;
+}
+
+#scatterChart .circles{
+	cursor:pointer;
+}
+
+#scatterChart .scatter_lab{
+	pointer-events:none;
+}
+
+/*Tipsy Style*/
+.tipsy { padding: 5px; font-size: 10px; position: absolute; z-index: 100000; 
+
+	font-family: Arial, sans-serif;
+}
+  .tipsy-inner { padding: 5px 8px 4px 8px; background-color: black; color: white; max-width: 200px; text-align: center; }
+  .tipsy-inner { border-radius: 3px; -moz-border-radius:3px; -webkit-border-radius:3px; }
+  .tipsy-arrow { position: absolute; background: url('../images/tipsy.gif') no-repeat top left; width: 9px; height: 5px; }
+  .tipsy-n .tipsy-arrow { top: 0; left: 50%; margin-left: -4px; }
+    .tipsy-nw .tipsy-arrow { top: 0; left: 10px; }
+    .tipsy-ne .tipsy-arrow { top: 0; right: 10px; }
+  .tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -4px; background-position: bottom left; }
+    .tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; background-position: bottom left; }
+    .tipsy-se .tipsy-arrow { bottom: 0; right: 10px; background-position: bottom left; }
+  .tipsy-e .tipsy-arrow { top: 50%; margin-top: -4px; right: 0; width: 5px; height: 9px; background-position: top right; }
+  .tipsy-w .tipsy-arrow { top: 50%; margin-top: -4px; left: 0; width: 5px; height: 9px; }
+
+
+
+.scatterSelect {
+	transition:background-color .5s ease;
+	background-color:#404040;
+	border-radius: 4px;
+	text-indent:0;
+	border:1px solid #000000;
+	display:inline-block;
+	color:#fcfcfc;
+	font-family:'Cousine';
+	font-size:15px;
+	font-style:normal;
+	height:16px;
+	line-height:18px;
+	width:130px;
+	text-decoration:none;
+	text-align:center;
+	cursor:pointer;
+	margin-right: 20px;
+	font-weight: bold;
+}
+.scatterSelect:hover{
+	transition:background-color .5s ease;
+	background-color:#668B8B;
+}
+.scatterSelect:active {
+	position:relative;
+	top:1px;
+}
+
+.rectback{
+	pointer-events:none;
+}
+
+#chartContainer{
+	width:600px;
+}
+#chartContainer h1{
+	text-align: center;
+}
+#chartContainer .scatterSelect{
+	float:right;
+}
+#chartContainer p{
+	margin:5px 20px 15px;
 }

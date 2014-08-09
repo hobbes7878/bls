@@ -8,6 +8,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Highway, Street, And Bridge Construction",
@@ -38,9 +39,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 72,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Freight Transportation Arrangement",
@@ -70,10 +72,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 70,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -89,9 +92,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 23,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Ship And Boat Building",
@@ -112,9 +116,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 17,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Home Furnishings Stores",
@@ -135,9 +140,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": 18,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Automotive Repair And Maintenance",
@@ -152,10 +158,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 25,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Waste Collection",
@@ -175,17 +182,19 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 28,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [],
                 "naics_code": "54",
                 "residual": -2,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Drinking Places (Alcoholic Beverages)",
@@ -195,10 +204,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": -10,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Home Health Care Services",
@@ -208,10 +218,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -9,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Miscellaneous Durable Goods Merchant Wholesalers",
@@ -222,23 +233,26 @@ var data = [
                 "naics_code": "42",
                 "residual": 12,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [],
                 "naics_code": "51",
                 "residual": -1,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [],
                 "naics_code": "61",
                 "residual": -9,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Electric Power Generation, Transmission And Distribution",
@@ -249,9 +263,10 @@ var data = [
                 "naics_code": "22",
                 "residual": -10,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Nonmetallic Mineral Mining And Quarrying",
@@ -267,7 +282,7 @@ var data = [
                 "naics_code": "21",
                 "residual": -2,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Alabama",
@@ -282,6 +297,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Other Heavy And Civil Engineering Construction",
@@ -297,9 +313,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 6,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Local Messengers And Local Delivery",
@@ -329,10 +346,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 36,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "National Security And International Affairs",
@@ -343,9 +361,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 0,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Seafood Product Preparation And Packaging",
@@ -356,16 +375,18 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 7,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [],
                 "naics_code": "44-45",
                 "residual": -4,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Investigation And Security Services",
@@ -380,10 +401,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -4,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Traveler Accommodation",
@@ -393,10 +415,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": 0,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Other Amusement And Recreation Industries",
@@ -406,29 +429,32 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": 0,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [],
                 "naics_code": "62",
                 "residual": 1,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [],
                 "naics_code": "42",
                 "residual": 1,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Mining",
                 "industries": [],
                 "naics_code": "21",
                 "residual": -26,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Alaska",
@@ -443,6 +469,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Building Equipment Contractors",
@@ -473,9 +500,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -120,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Taxi And Limousine Service",
@@ -505,10 +533,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 37,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "National Security And International Affairs",
@@ -529,16 +558,18 @@ var data = [
                 "naics_code": "92",
                 "residual": 23,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [],
                 "naics_code": "31-33",
                 "residual": -15,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Gasoline Stations",
@@ -569,9 +600,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -10,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Religious Organizations",
@@ -581,10 +613,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -22,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -599,24 +632,27 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -46,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [],
                 "naics_code": "54",
                 "residual": -10,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [],
                 "naics_code": "72",
                 "residual": -5,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Consumer Goods Rental",
@@ -631,24 +667,27 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -9,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [],
                 "naics_code": "71",
                 "residual": -8,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [],
                 "naics_code": "62",
                 "residual": 1,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Farm Product Raw Material Merchant Wholesalers",
@@ -669,16 +708,18 @@ var data = [
                 "naics_code": "42",
                 "residual": -2,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [],
                 "naics_code": "51",
                 "residual": 1,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Technical And Trade Schools",
@@ -693,10 +734,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": 5,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Metal Ore Mining",
@@ -707,7 +749,7 @@ var data = [
                 "naics_code": "21",
                 "residual": -23,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Arizona",
@@ -722,6 +764,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Highway, Street, And Bridge Construction",
@@ -752,9 +795,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 73,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Support Activities For Road Transportation",
@@ -784,10 +828,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 62,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -798,9 +843,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 7,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Electrical Equipment Manufacturing",
@@ -821,9 +867,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 34,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Electronics And Appliance Stores",
@@ -854,9 +901,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": 26,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Business, Professional, Labor, Political, And Similar Organizations",
@@ -881,10 +929,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 1,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -904,10 +953,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 7,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Architectural, Engineering, And Related Services",
@@ -917,10 +967,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": 6,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Traveler Accommodation",
@@ -935,17 +986,19 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": -1,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [],
                 "naics_code": "53",
                 "residual": -2,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [
                     {
                         "industry": "Nondepository Credit Intermediation",
@@ -956,9 +1009,10 @@ var data = [
                 "naics_code": "52",
                 "residual": -1,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Residential Mental Retardation, Mental Health And Substance Abuse Facilities",
@@ -988,10 +1042,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": 4,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Miscellaneous Nondurable Goods Merchant Wholesalers",
@@ -1007,9 +1062,10 @@ var data = [
                 "naics_code": "42",
                 "residual": 10,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Natural Gas Distribution",
@@ -1025,9 +1081,10 @@ var data = [
                 "naics_code": "22",
                 "residual": 1,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Oil And Gas Extraction",
@@ -1043,7 +1100,7 @@ var data = [
                 "naics_code": "21",
                 "residual": -10,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Arkansas",
@@ -1058,6 +1115,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Building Equipment Contractors",
@@ -1088,9 +1146,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -363,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Warehousing And Storage",
@@ -1120,10 +1179,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -187,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "National Security And International Affairs",
@@ -1149,9 +1209,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 25,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Semiconductor And Other Electronic Component Manufacturing",
@@ -1182,9 +1243,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -116,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Beer, Wine, And Liquor Stores",
@@ -1215,9 +1277,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -55,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Automotive Repair And Maintenance",
@@ -1247,10 +1310,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -124,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Travel Arrangement And Reservation Services",
@@ -1280,10 +1344,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -61,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Architectural, Engineering, And Related Services",
@@ -1298,10 +1363,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": -32,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Drinking Places (Alcoholic Beverages)",
@@ -1331,10 +1397,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": -40,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Activities Related To Real Estate",
@@ -1349,10 +1416,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -29,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Spectator Sports",
@@ -1372,17 +1440,19 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -41,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [],
                 "naics_code": "52",
                 "residual": -30,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Residential Mental Retardation, Mental Health And Substance Abuse Facilities",
@@ -1412,10 +1482,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -2,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Machinery, Equipment, And Supplies Merchant Wholesalers",
@@ -1446,9 +1517,10 @@ var data = [
                 "naics_code": "42",
                 "residual": -101,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Newspaper, Periodical, Book, And Directory Publishers",
@@ -1464,9 +1536,10 @@ var data = [
                 "naics_code": "51",
                 "residual": -20,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Technical And Trade Schools",
@@ -1481,10 +1554,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -10,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Natural Gas Distribution",
@@ -1500,9 +1574,10 @@ var data = [
                 "naics_code": "22",
                 "residual": -27,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Support Activities For Mining",
@@ -1518,7 +1593,7 @@ var data = [
                 "naics_code": "21",
                 "residual": -18,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "California",
@@ -1533,6 +1608,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Residential Building Construction",
@@ -1563,9 +1639,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -4,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "General Freight Trucking",
@@ -1595,10 +1672,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 35,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -1614,9 +1692,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 0,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Petroleum And Coal Products Manufacturing",
@@ -1627,9 +1706,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 6,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Health And Personal Care Stores",
@@ -1655,9 +1735,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": 11,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Religious Organizations",
@@ -1672,10 +1753,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 20,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -1685,17 +1767,19 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -8,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [],
                 "naics_code": "54",
                 "residual": -11,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Traveler Accommodation",
@@ -1705,17 +1789,19 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": -7,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [],
                 "naics_code": "53",
                 "residual": -13,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Other Amusement And Recreation Industries",
@@ -1725,24 +1811,27 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": 25,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [],
                 "naics_code": "52",
                 "residual": 0,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [],
                 "naics_code": "62",
                 "residual": 2,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Grocery And Related Product Wholesalers",
@@ -1753,9 +1842,10 @@ var data = [
                 "naics_code": "42",
                 "residual": 14,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Newspaper, Periodical, Book, And Directory Publishers",
@@ -1766,9 +1856,10 @@ var data = [
                 "naics_code": "51",
                 "residual": -4,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Elementary And Secondary Schools",
@@ -1783,10 +1874,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": 8,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Support Activities For Mining",
@@ -1802,7 +1894,7 @@ var data = [
                 "naics_code": "21",
                 "residual": -8,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Colorado",
@@ -1817,6 +1909,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Building Finishing Contractors",
@@ -1847,9 +1940,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -2,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "General Freight Trucking",
@@ -1874,10 +1968,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -23,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -1888,9 +1983,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -7,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Electric Lighting Equipment Manufacturing",
@@ -1901,9 +1997,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -47,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Gasoline Stations",
@@ -1919,9 +2016,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -15,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Death Care Services",
@@ -1941,10 +2039,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -13,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -1959,17 +2058,19 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 5,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [],
                 "naics_code": "72",
                 "residual": -8,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Activities Related To Real Estate",
@@ -1984,10 +2085,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -4,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Other Amusement And Recreation Industries",
@@ -1997,17 +2099,19 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -13,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [],
                 "naics_code": "62",
                 "residual": -19,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Beer, Wine, And Distilled Alcoholic Beverage Merchant Wholesalers",
@@ -2023,9 +2127,10 @@ var data = [
                 "naics_code": "42",
                 "residual": -10,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Other Information Services",
@@ -2046,9 +2151,10 @@ var data = [
                 "naics_code": "51",
                 "residual": -4,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Elementary And Secondary Schools",
@@ -2068,8 +2174,8 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": 0,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             }
         ],
         "state": "Connecticut",
@@ -2084,6 +2190,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Highway, Street, And Bridge Construction",
@@ -2099,9 +2206,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -23,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Taxi And Limousine Service",
@@ -2121,10 +2229,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -10,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -2135,9 +2244,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -6,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Activities Related To Real Estate",
@@ -2147,10 +2257,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -1,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Promoters Of Performing Arts, Sports, And Similar Events",
@@ -2170,8 +2281,8 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -1,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             }
         ],
         "state": "Delaware",
@@ -2186,6 +2297,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Building Finishing Contractors",
@@ -2196,30 +2308,34 @@ var data = [
                 "naics_code": "23",
                 "residual": 17,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [],
                 "naics_code": "48-49",
                 "residual": -15,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [],
                 "naics_code": "92",
                 "residual": -73,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [],
                 "naics_code": "56",
                 "residual": -13,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Museums, Historical Sites, And Similar Institutions",
@@ -2229,8 +2345,8 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -4,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             }
         ],
         "state": "District of Columbia",
@@ -2245,6 +2361,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Nonresidential Building Construction",
@@ -2275,9 +2392,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 8,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Taxi And Limousine Service",
@@ -2307,10 +2425,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -1,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Administration Of Housing Programs, Urban Planning, And Community Development",
@@ -2341,9 +2460,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -44,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Other Chemical Product And Preparation Manufacturing",
@@ -2374,9 +2494,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 31,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Gasoline Stations",
@@ -2407,9 +2528,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": 37,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Automotive Repair And Maintenance",
@@ -2439,10 +2561,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 11,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Employment Services",
@@ -2472,10 +2595,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 164,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Architectural, Engineering, And Related Services",
@@ -2490,10 +2614,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": 6,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Limited-Service Eating Places",
@@ -2523,10 +2648,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": 5,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Activities Related To Real Estate",
@@ -2551,10 +2677,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -12,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Other Amusement And Recreation Industries",
@@ -2584,10 +2711,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": 3,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [
                     {
                         "industry": "Agencies, Brokerages, And Other Insurance Related Activities",
@@ -2598,9 +2726,10 @@ var data = [
                 "naics_code": "52",
                 "residual": -4,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Medical And Diagnostic Laboratories",
@@ -2620,10 +2749,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": 0,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Lumber And Other Construction Materials Merchant Wholesalers",
@@ -2654,9 +2784,10 @@ var data = [
                 "naics_code": "42",
                 "residual": -11,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Newspaper, Periodical, Book, And Directory Publishers",
@@ -2667,9 +2798,10 @@ var data = [
                 "naics_code": "51",
                 "residual": -13,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Technical And Trade Schools",
@@ -2689,10 +2821,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": 27,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Water, Sewage And Other Systems",
@@ -2708,9 +2841,10 @@ var data = [
                 "naics_code": "22",
                 "residual": 6,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Nonmetallic Mineral Mining And Quarrying",
@@ -2721,7 +2855,7 @@ var data = [
                 "naics_code": "21",
                 "residual": -8,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Florida",
@@ -2736,6 +2870,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Highway, Street, And Bridge Construction",
@@ -2766,9 +2901,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 118,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Scenic And Sightseeing Transportation, Other",
@@ -2798,10 +2934,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -6,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -2817,9 +2954,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 20,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Sugar And Confectionery Product Manufacturing",
@@ -2850,9 +2988,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 30,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Gasoline Stations",
@@ -2883,9 +3022,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -6,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Personal Care Services",
@@ -2905,10 +3045,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 18,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Waste Treatment And Disposal",
@@ -2933,10 +3074,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 0,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Accounting, Tax Preparation, Bookkeeping, And Payroll Services",
@@ -2951,10 +3093,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": -17,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Traveler Accommodation",
@@ -2979,10 +3122,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": 5,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Commercial And Industrial Machinery And Equipment Rental And Leasing",
@@ -2992,31 +3136,35 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -4,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [],
                 "naics_code": "71",
                 "residual": -14,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [],
                 "naics_code": "52",
                 "residual": -1,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [],
                 "naics_code": "62",
                 "residual": -14,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Drugs And Druggists' Sundries Merchant Wholesalers",
@@ -3047,16 +3195,18 @@ var data = [
                 "naics_code": "42",
                 "residual": 6,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [],
                 "naics_code": "51",
                 "residual": -14,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Elementary And Secondary Schools",
@@ -3066,10 +3216,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -11,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Water, Sewage And Other Systems",
@@ -3085,7 +3236,7 @@ var data = [
                 "naics_code": "22",
                 "residual": -4,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             }
         ],
         "state": "Georgia",
@@ -3100,6 +3251,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Residential Building Construction",
@@ -3120,9 +3272,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -10,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Scenic And Sightseeing Transportation, Water",
@@ -3137,10 +3290,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -20,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Administration Of Environmental Quality Programs",
@@ -3161,9 +3315,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -1,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Other Food Manufacturing",
@@ -3174,9 +3329,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -4,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Remediation And Other Waste Management Services",
@@ -3191,10 +3347,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 6,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Offices Of Other Health Practitioners",
@@ -3204,10 +3361,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -4,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Machinery, Equipment, And Supplies Merchant Wholesalers",
@@ -3218,7 +3376,7 @@ var data = [
                 "naics_code": "42",
                 "residual": -5,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             }
         ],
         "state": "Hawaii",
@@ -3233,6 +3391,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Utility System Construction",
@@ -3253,9 +3412,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -24,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "General Freight Trucking",
@@ -3265,10 +3425,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 10,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -3279,9 +3440,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -10,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Fruit And Vegetable Preserving And Specialty Food Manufacturing",
@@ -3292,35 +3454,39 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -2,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [],
                 "naics_code": "56",
                 "residual": -12,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [],
                 "naics_code": "72",
                 "residual": -4,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [],
                 "naics_code": "42",
                 "residual": 2,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Mining",
                 "industries": [],
                 "naics_code": "21",
                 "residual": -3,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Idaho",
@@ -3335,6 +3501,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Highway, Street, And Bridge Construction",
@@ -3365,9 +3532,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -45,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Specialized Freight Trucking",
@@ -3397,10 +3565,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -101,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -3421,9 +3590,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -23,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Resin, Synthetic Rubber, And Artificial Synthetic Fibers And Filaments Manufacturing",
@@ -3454,9 +3624,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -24,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Grocery Stores",
@@ -3487,9 +3658,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -9,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Private Households",
@@ -3519,10 +3691,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 6,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Waste Collection",
@@ -3547,10 +3720,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -87,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Specialized Design Services",
@@ -3570,10 +3744,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": -9,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Limited-Service Eating Places",
@@ -3598,10 +3773,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": 5,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Lessors Of Real Estate",
@@ -3616,10 +3792,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": 8,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Promoters Of Performing Arts, Sports, And Similar Events",
@@ -3644,17 +3821,19 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": 8,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [],
                 "naics_code": "52",
                 "residual": -15,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Other Residential Care Facilities",
@@ -3684,10 +3863,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -1,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Machinery, Equipment, And Supplies Merchant Wholesalers",
@@ -3718,9 +3898,10 @@ var data = [
                 "naics_code": "42",
                 "residual": -38,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Cable And Other Subscription Programming",
@@ -3736,9 +3917,10 @@ var data = [
                 "naics_code": "51",
                 "residual": 4,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Elementary And Secondary Schools",
@@ -3748,10 +3930,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -5,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Electric Power Generation, Transmission And Distribution",
@@ -3762,9 +3945,10 @@ var data = [
                 "naics_code": "22",
                 "residual": -4,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Support Activities For Mining",
@@ -3780,7 +3964,7 @@ var data = [
                 "naics_code": "21",
                 "residual": -15,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Illinois",
@@ -3795,6 +3979,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Highway, Street, And Bridge Construction",
@@ -3825,9 +4010,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 2,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Support Activities For Rail Transportation",
@@ -3857,10 +4043,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 38,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -3886,9 +4073,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -6,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Communications Equipment Manufacturing",
@@ -3919,9 +4107,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -23,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Vending Machine Operators",
@@ -3952,9 +4141,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": 23,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Religious Organizations",
@@ -3979,10 +4169,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 25,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Waste Collection",
@@ -4007,17 +4198,19 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 1,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [],
                 "naics_code": "54",
                 "residual": -2,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Traveler Accommodation",
@@ -4032,10 +4225,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": -6,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Offices Of Real Estate Agents And Brokers",
@@ -4055,10 +4249,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -6,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Independent Artists, Writers, And Performers",
@@ -4083,10 +4278,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": 11,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [
                     {
                         "industry": "Agencies, Brokerages, And Other Insurance Related Activities",
@@ -4097,16 +4293,18 @@ var data = [
                 "naics_code": "52",
                 "residual": -2,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [],
                 "naics_code": "62",
                 "residual": -4,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Miscellaneous Nondurable Goods Merchant Wholesalers",
@@ -4137,9 +4335,10 @@ var data = [
                 "naics_code": "42",
                 "residual": 31,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Newspaper, Periodical, Book, And Directory Publishers",
@@ -4150,9 +4349,10 @@ var data = [
                 "naics_code": "51",
                 "residual": -3,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Junior Colleges",
@@ -4172,10 +4372,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -5,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Electric Power Generation, Transmission And Distribution",
@@ -4186,7 +4387,7 @@ var data = [
                 "naics_code": "22",
                 "residual": 2,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             }
         ],
         "state": "Indiana",
@@ -4201,6 +4402,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Nonresidential Building Construction",
@@ -4231,9 +4433,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 35,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Specialized Freight Trucking",
@@ -4263,10 +4466,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 21,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Administration Of Environmental Quality Programs",
@@ -4287,9 +4491,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -16,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Converted Paper Product Manufacturing",
@@ -4320,9 +4525,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 3,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Home Furnishings Stores",
@@ -4353,9 +4559,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -6,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Personal And Household Goods Repair And Maintenance",
@@ -4365,10 +4572,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -5,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Employment Services",
@@ -4383,17 +4591,19 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -10,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [],
                 "naics_code": "54",
                 "residual": -1,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Traveler Accommodation",
@@ -4408,10 +4618,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": -14,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Automotive Equipment Rental And Leasing",
@@ -4426,10 +4637,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": 0,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Museums, Historical Sites, And Similar Institutions",
@@ -4449,10 +4661,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -3,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Other Residential Care Facilities",
@@ -4477,10 +4690,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -8,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Miscellaneous Nondurable Goods Merchant Wholesalers",
@@ -4506,9 +4720,10 @@ var data = [
                 "naics_code": "42",
                 "residual": 28,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Motion Picture And Video Industries",
@@ -4519,9 +4734,10 @@ var data = [
                 "naics_code": "51",
                 "residual": -3,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Junior Colleges",
@@ -4536,10 +4752,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -4,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Nonmetallic Mineral Mining And Quarrying",
@@ -4550,7 +4767,7 @@ var data = [
                 "naics_code": "21",
                 "residual": -4,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Iowa",
@@ -4565,6 +4782,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Utility System Construction",
@@ -4595,9 +4813,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 20,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "General Freight Trucking",
@@ -4617,10 +4836,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 22,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Executive, Legislative, And Other General Government Support",
@@ -4636,9 +4856,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 8,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Electrical Equipment Manufacturing",
@@ -4669,9 +4890,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 13,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Automotive Parts, Accessories, And Tire Stores",
@@ -4702,9 +4924,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": 4,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Religious Organizations",
@@ -4719,10 +4942,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 1,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -4742,10 +4966,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -4,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Other Professional, Scientific, And Technical Services",
@@ -4755,17 +4980,19 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": -1,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [],
                 "naics_code": "53",
                 "residual": -2,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Spectator Sports",
@@ -4775,10 +5002,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -1,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Other Ambulatory Health Care Services",
@@ -4798,10 +5026,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": 12,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Miscellaneous Nondurable Goods Merchant Wholesalers",
@@ -4827,16 +5056,18 @@ var data = [
                 "naics_code": "42",
                 "residual": 38,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Educational Services",
                 "industries": [],
                 "naics_code": "61",
                 "residual": -7,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Oil And Gas Extraction",
@@ -4857,7 +5088,7 @@ var data = [
                 "naics_code": "21",
                 "residual": 16,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Kansas",
@@ -4872,6 +5103,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Other Specialty Trade Contractors",
@@ -4902,9 +5134,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 55,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "General Freight Trucking",
@@ -4919,10 +5152,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 52,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -4933,9 +5167,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 16,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Other Nonmetallic Mineral Product Manufacturing",
@@ -4961,16 +5196,18 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 25,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [],
                 "naics_code": "44-45",
                 "residual": 16,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Business, Professional, Labor, Political, And Similar Organizations",
@@ -4980,10 +5217,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 7,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -5003,10 +5241,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 24,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Legal Services",
@@ -5021,17 +5260,19 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": 2,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [],
                 "naics_code": "72",
                 "residual": -15,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Lessors Of Real Estate",
@@ -5041,10 +5282,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": 0,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Spectator Sports",
@@ -5054,10 +5296,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -6,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Offices Of Physicians",
@@ -5067,17 +5310,19 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": 7,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [],
                 "naics_code": "42",
                 "residual": -9,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Newspaper, Periodical, Book, And Directory Publishers",
@@ -5088,16 +5333,18 @@ var data = [
                 "naics_code": "51",
                 "residual": 0,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Utilities",
                 "industries": [],
                 "naics_code": "22",
                 "residual": -5,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Coal Mining",
@@ -5113,7 +5360,7 @@ var data = [
                 "naics_code": "21",
                 "residual": 39,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Kentucky",
@@ -5128,6 +5375,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Foundation, Structure, And Building Exterior Contractors",
@@ -5158,9 +5406,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 40,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Taxi And Limousine Service",
@@ -5190,10 +5439,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 125,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -5209,9 +5459,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 31,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Ship And Boat Building",
@@ -5242,9 +5493,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 59,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Grocery Stores",
@@ -5270,9 +5522,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -5,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Religious Organizations",
@@ -5292,10 +5545,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 10,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Employment Services",
@@ -5320,10 +5574,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 36,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Other Professional, Scientific, And Technical Services",
@@ -5338,10 +5593,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": 10,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Drinking Places (Alcoholic Beverages)",
@@ -5351,10 +5607,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": -5,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Lessors Of Real Estate",
@@ -5364,17 +5621,19 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -7,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [],
                 "naics_code": "71",
                 "residual": -14,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [
                     {
                         "industry": "Agencies, Brokerages, And Other Insurance Related Activities",
@@ -5385,9 +5644,10 @@ var data = [
                 "naics_code": "52",
                 "residual": -3,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Metal And Mineral (Except Petroleum) Merchant Wholesalers",
@@ -5398,9 +5658,10 @@ var data = [
                 "naics_code": "42",
                 "residual": 17,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Cable And Other Subscription Programming",
@@ -5411,9 +5672,10 @@ var data = [
                 "naics_code": "51",
                 "residual": -2,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Colleges, Universities, And Professional Schools",
@@ -5423,10 +5685,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -12,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Electric Power Generation, Transmission And Distribution",
@@ -5437,9 +5700,10 @@ var data = [
                 "naics_code": "22",
                 "residual": -2,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Support Activities For Mining",
@@ -5455,7 +5719,7 @@ var data = [
                 "naics_code": "21",
                 "residual": 4,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Louisiana",
@@ -5470,6 +5734,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Building Equipment Contractors",
@@ -5490,9 +5755,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -18,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Local Messengers And Local Delivery",
@@ -5517,10 +5783,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -3,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -5531,9 +5798,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -9,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Cement And Concrete Product Manufacturing",
@@ -5544,9 +5812,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -7,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Gasoline Stations",
@@ -5557,9 +5826,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -18,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Remediation And Other Waste Management Services",
@@ -5574,10 +5844,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -3,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Architectural, Engineering, And Related Services",
@@ -5587,10 +5858,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": -2,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Performing Arts Companies",
@@ -5600,10 +5872,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -3,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Community Care Facilities For The Elderly",
@@ -5613,10 +5886,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -3,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Nonmetallic Mineral Mining And Quarrying",
@@ -5627,7 +5901,7 @@ var data = [
                 "naics_code": "21",
                 "residual": 1,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Maine",
@@ -5642,6 +5916,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Building Finishing Contractors",
@@ -5672,9 +5947,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -41,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Rail Transportation",
@@ -5704,10 +5980,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 9,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -5718,9 +5995,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -51,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Other Food Manufacturing",
@@ -5746,9 +6024,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -6,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Sporting Goods, Hobby, And Musical Instrument Stores",
@@ -5774,9 +6053,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -7,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Religious Organizations",
@@ -5786,10 +6066,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -17,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -5814,17 +6095,19 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 9,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [],
                 "naics_code": "54",
                 "residual": -16,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Special Food Services",
@@ -5844,10 +6127,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": 8,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Activities Related To Real Estate",
@@ -5862,10 +6146,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -12,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [
                     {
                         "industry": "Depository Credit Intermediation",
@@ -5876,9 +6161,10 @@ var data = [
                 "naics_code": "52",
                 "residual": -6,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "General Medical And Surgical Hospitals",
@@ -5888,10 +6174,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -17,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Miscellaneous Nondurable Goods Merchant Wholesalers",
@@ -5907,9 +6194,10 @@ var data = [
                 "naics_code": "42",
                 "residual": -23,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Technical And Trade Schools",
@@ -5924,8 +6212,8 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -11,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             }
         ],
         "state": "Maryland",
@@ -5940,6 +6228,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Building Finishing Contractors",
@@ -5970,9 +6259,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -40,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Support Activities For Water Transportation",
@@ -6002,10 +6292,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -66,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -6016,9 +6307,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -17,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Converted Paper Product Manufacturing",
@@ -6029,9 +6321,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -48,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Gasoline Stations",
@@ -6062,9 +6355,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -33,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Religious Organizations",
@@ -6089,10 +6383,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -41,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -6112,10 +6407,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -29,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Rv (Recreational Vehicle) Parks And Recreational Camps",
@@ -6135,10 +6431,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": -17,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Activities Related To Real Estate",
@@ -6148,10 +6445,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -6,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Other Amusement And Recreation Industries",
@@ -6161,10 +6459,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -14,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Psychiatric And Substance Abuse Hospitals",
@@ -6184,10 +6483,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -20,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Grocery And Related Product Wholesalers",
@@ -6203,9 +6503,10 @@ var data = [
                 "naics_code": "42",
                 "residual": -15,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Other Telecommunications",
@@ -6231,9 +6532,10 @@ var data = [
                 "naics_code": "51",
                 "residual": -13,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Colleges, Universities, And Professional Schools",
@@ -6248,10 +6550,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -15,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Water, Sewage And Other Systems",
@@ -6262,7 +6565,7 @@ var data = [
                 "naics_code": "22",
                 "residual": -7,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             }
         ],
         "state": "Massachusetts",
@@ -6277,6 +6580,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Foundation, Structure, And Building Exterior Contractors",
@@ -6307,9 +6611,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -4,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Local Messengers And Local Delivery",
@@ -6339,10 +6644,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -67,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -6353,9 +6659,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -19,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Pesticide, Fertilizer, And Other Agricultural Chemical Manufacturing",
@@ -6386,9 +6693,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -36,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Used Merchandise Stores",
@@ -6419,9 +6727,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": 0,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Civic And Social Organizations",
@@ -6451,10 +6760,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 14,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -6469,10 +6779,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -43,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Accounting, Tax Preparation, Bookkeeping, And Payroll Services",
@@ -6487,10 +6798,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": -14,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Full-Service Restaurants",
@@ -6505,10 +6817,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": -5,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Offices Of Real Estate Agents And Brokers",
@@ -6518,10 +6831,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -16,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Independent Artists, Writers, And Performers",
@@ -6541,10 +6855,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": 19,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Community Care Facilities For The Elderly",
@@ -6574,10 +6889,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -2,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Professional And Commercial Equipment And Supplies Merchant Wholesalers",
@@ -6603,9 +6919,10 @@ var data = [
                 "naics_code": "42",
                 "residual": -13,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Newspaper, Periodical, Book, And Directory Publishers",
@@ -6621,9 +6938,10 @@ var data = [
                 "naics_code": "51",
                 "residual": -2,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Elementary And Secondary Schools",
@@ -6638,10 +6956,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -19,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Water, Sewage And Other Systems",
@@ -6662,14 +6981,15 @@ var data = [
                 "naics_code": "22",
                 "residual": -10,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [],
                 "naics_code": "21",
                 "residual": -10,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Michigan",
@@ -6684,6 +7004,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Other Specialty Trade Contractors",
@@ -6714,9 +7035,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -36,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Taxi And Limousine Service",
@@ -6746,10 +7068,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -79,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -6760,9 +7083,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -31,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Communications Equipment Manufacturing",
@@ -6778,16 +7102,18 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -46,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [],
                 "naics_code": "44-45",
                 "residual": -42,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Commercial Machinery Repair And Maintenance",
@@ -6797,10 +7123,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -25,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -6815,24 +7142,27 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -33,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [],
                 "naics_code": "53",
                 "residual": -10,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [],
                 "naics_code": "71",
                 "residual": -17,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Child Day Care Services",
@@ -6842,10 +7172,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -18,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Miscellaneous Nondurable Goods Merchant Wholesalers",
@@ -6861,14 +7192,15 @@ var data = [
                 "naics_code": "42",
                 "residual": -9,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Educational Services",
                 "industries": [],
                 "naics_code": "61",
                 "residual": -11,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             }
         ],
         "state": "Minnesota",
@@ -6883,6 +7215,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Building Finishing Contractors",
@@ -6913,9 +7246,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 82,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "General Freight Trucking",
@@ -6935,10 +7269,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 84,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -6954,9 +7289,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 30,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Aerospace Product And Parts Manufacturing",
@@ -6977,9 +7313,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 35,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Sporting Goods, Hobby, And Musical Instrument Stores",
@@ -6995,16 +7332,18 @@ var data = [
                 "naics_code": "44-45",
                 "residual": 19,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [],
                 "naics_code": "81",
                 "residual": 4,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -7019,10 +7358,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 25,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Limited-Service Eating Places",
@@ -7032,24 +7372,27 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": -9,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [],
                 "naics_code": "52",
                 "residual": 1,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [],
                 "naics_code": "62",
                 "residual": -3,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Lumber And Other Construction Materials Merchant Wholesalers",
@@ -7060,16 +7403,18 @@ var data = [
                 "naics_code": "42",
                 "residual": 12,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [],
                 "naics_code": "51",
                 "residual": 1,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Support Activities For Mining",
@@ -7080,7 +7425,7 @@ var data = [
                 "naics_code": "21",
                 "residual": -11,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Mississippi",
@@ -7095,6 +7440,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Building Finishing Contractors",
@@ -7125,9 +7471,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 57,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "General Freight Trucking",
@@ -7147,10 +7494,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 15,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -7171,9 +7519,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 22,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Electrical Equipment Manufacturing",
@@ -7199,9 +7548,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 15,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Used Merchandise Stores",
@@ -7227,9 +7577,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": 19,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Religious Organizations",
@@ -7249,10 +7600,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 23,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Travel Arrangement And Reservation Services",
@@ -7272,17 +7624,19 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 7,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [],
                 "naics_code": "54",
                 "residual": -6,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Traveler Accommodation",
@@ -7297,10 +7651,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": 2,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Lessors Of Real Estate",
@@ -7310,10 +7665,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": 2,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Independent Artists, Writers, And Performers",
@@ -7333,10 +7689,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -1,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [
                     {
                         "industry": "Nondepository Credit Intermediation",
@@ -7347,9 +7704,10 @@ var data = [
                 "naics_code": "52",
                 "residual": -7,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Other Ambulatory Health Care Services",
@@ -7369,10 +7727,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": 16,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Paper And Paper Product Merchant Wholesalers",
@@ -7393,16 +7752,18 @@ var data = [
                 "naics_code": "42",
                 "residual": 12,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [],
                 "naics_code": "51",
                 "residual": 0,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Colleges, Universities, And Professional Schools",
@@ -7417,10 +7778,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -3,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Electric Power Generation, Transmission And Distribution",
@@ -7431,7 +7793,7 @@ var data = [
                 "naics_code": "22",
                 "residual": -1,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             }
         ],
         "state": "Missouri",
@@ -7446,6 +7808,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Nonresidential Building Construction",
@@ -7466,9 +7829,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 11,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "General Freight Trucking",
@@ -7483,10 +7847,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 40,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Executive, Legislative, And Other General Government Support",
@@ -7507,9 +7872,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 13,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Cement And Concrete Product Manufacturing",
@@ -7520,16 +7886,18 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 2,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [],
                 "naics_code": "44-45",
                 "residual": -9,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Employment Services",
@@ -7544,10 +7912,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -6,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Other Amusement And Recreation Industries",
@@ -7557,24 +7926,27 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -2,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [],
                 "naics_code": "42",
                 "residual": -3,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [],
                 "naics_code": "51",
                 "residual": 3,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Technical And Trade Schools",
@@ -7589,10 +7961,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -1,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Electric Power Generation, Transmission And Distribution",
@@ -7603,14 +7976,15 @@ var data = [
                 "naics_code": "22",
                 "residual": 1,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [],
                 "naics_code": "21",
                 "residual": -9,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Montana",
@@ -7625,6 +7999,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Building Equipment Contractors",
@@ -7655,9 +8030,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 5,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Postal Service",
@@ -7682,17 +8058,19 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -1,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [],
                 "naics_code": "92",
                 "residual": -17,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Motor Vehicle Parts Manufacturing",
@@ -7708,9 +8086,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -11,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Department Stores",
@@ -7731,9 +8110,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": 6,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Automotive Repair And Maintenance",
@@ -7743,10 +8123,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -4,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -7756,10 +8137,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -7,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Architectural, Engineering, And Related Services",
@@ -7769,10 +8151,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": 0,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Promoters Of Performing Arts, Sports, And Similar Events",
@@ -7787,10 +8170,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -4,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Individual And Family Services",
@@ -7805,10 +8189,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -7,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Metal And Mineral (Except Petroleum) Merchant Wholesalers",
@@ -7829,9 +8214,10 @@ var data = [
                 "naics_code": "42",
                 "residual": 8,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Elementary And Secondary Schools",
@@ -7841,10 +8227,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -1,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Electric Power Generation, Transmission And Distribution",
@@ -7855,14 +8242,15 @@ var data = [
                 "naics_code": "22",
                 "residual": -5,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [],
                 "naics_code": "21",
                 "residual": -1,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Nebraska",
@@ -7877,6 +8265,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Building Equipment Contractors",
@@ -7907,9 +8296,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -54,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "General Freight Trucking",
@@ -7924,10 +8314,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -10,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "National Security And International Affairs",
@@ -7943,16 +8334,18 @@ var data = [
                 "naics_code": "92",
                 "residual": -6,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [],
                 "naics_code": "31-33",
                 "residual": 9,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Gasoline Stations",
@@ -7963,9 +8356,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -6,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Automotive Repair And Maintenance",
@@ -7975,10 +8369,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -11,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Business Support Services",
@@ -7993,10 +8388,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 4,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Architectural, Engineering, And Related Services",
@@ -8006,10 +8402,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": 0,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Traveler Accommodation",
@@ -8019,10 +8416,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": -18,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Lessors Of Real Estate",
@@ -8032,10 +8430,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -6,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Spectator Sports",
@@ -8050,10 +8449,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": 6,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Technical And Trade Schools",
@@ -8063,10 +8463,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": 4,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Metal Ore Mining",
@@ -8077,7 +8478,7 @@ var data = [
                 "naics_code": "21",
                 "residual": -12,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Nevada",
@@ -8092,20 +8493,23 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [],
                 "naics_code": "23",
                 "residual": -18,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [],
                 "naics_code": "48-49",
                 "residual": -24,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Beverage Manufacturing",
@@ -8116,16 +8520,18 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -15,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [],
                 "naics_code": "44-45",
                 "residual": -18,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -8135,10 +8541,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -9,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Lessors Of Real Estate",
@@ -8148,10 +8555,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -2,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Individual And Family Services",
@@ -8161,10 +8569,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -5,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Miscellaneous Durable Goods Merchant Wholesalers",
@@ -8175,7 +8584,7 @@ var data = [
                 "naics_code": "42",
                 "residual": -8,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             }
         ],
         "state": "New Hampshire",
@@ -8190,6 +8599,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Highway, Street, And Bridge Construction",
@@ -8220,9 +8630,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -9,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Urban Transit Systems",
@@ -8252,10 +8663,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -115,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -8266,9 +8678,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -39,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Foundries",
@@ -8299,9 +8712,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -14,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Specialty Food Stores",
@@ -8332,9 +8746,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -14,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Private Households",
@@ -8354,10 +8769,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -10,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Waste Treatment And Disposal",
@@ -8387,10 +8803,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -29,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Legal Services",
@@ -8400,10 +8817,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": -24,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Rv (Recreational Vehicle) Parks And Recreational Camps",
@@ -8423,10 +8841,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": 4,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Automotive Equipment Rental And Leasing",
@@ -8436,10 +8855,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -14,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Promoters Of Performing Arts, Sports, And Similar Events",
@@ -8459,10 +8879,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -12,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [
                     {
                         "industry": "Securities And Commodity Contracts Intermediation And Brokerage",
@@ -8478,9 +8899,10 @@ var data = [
                 "naics_code": "52",
                 "residual": -7,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Other Ambulatory Health Care Services",
@@ -8495,10 +8917,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -26,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Lumber And Other Construction Materials Merchant Wholesalers",
@@ -8519,9 +8942,10 @@ var data = [
                 "naics_code": "42",
                 "residual": -48,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Motion Picture And Video Industries",
@@ -8532,9 +8956,10 @@ var data = [
                 "naics_code": "51",
                 "residual": -13,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Elementary And Secondary Schools",
@@ -8544,10 +8969,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -19,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Water, Sewage And Other Systems",
@@ -8563,7 +8989,7 @@ var data = [
                 "naics_code": "22",
                 "residual": -8,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             }
         ],
         "state": "New Jersey",
@@ -8578,6 +9004,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Other Heavy And Civil Engineering Construction",
@@ -8603,9 +9030,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 20,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Scenic And Sightseeing Transportation, Land",
@@ -8630,10 +9058,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 48,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -8644,16 +9073,18 @@ var data = [
                 "naics_code": "92",
                 "residual": -4,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [],
                 "naics_code": "31-33",
                 "residual": 11,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Other General Merchandise Stores",
@@ -8669,9 +9100,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -2,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Automotive Repair And Maintenance",
@@ -8681,10 +9113,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -2,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Investigation And Security Services",
@@ -8699,10 +9132,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -2,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Drinking Places (Alcoholic Beverages)",
@@ -8712,24 +9146,27 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": -2,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [],
                 "naics_code": "42",
                 "residual": -1,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Educational Services",
                 "industries": [],
                 "naics_code": "61",
                 "residual": -3,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Support Activities For Mining",
@@ -8740,7 +9177,7 @@ var data = [
                 "naics_code": "21",
                 "residual": 12,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "New Mexico",
@@ -8755,6 +9192,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Land Subdivision",
@@ -8785,9 +9223,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -37,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Urban Transit Systems",
@@ -8817,10 +9256,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -236,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "National Security And International Affairs",
@@ -8846,9 +9286,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -74,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Other Furniture Related Product Manufacturing",
@@ -8879,9 +9320,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -39,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Electronic Shopping And Mail-Order Houses",
@@ -8912,9 +9354,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -26,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Social Advocacy Organizations",
@@ -8944,10 +9387,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -10,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Waste Collection",
@@ -8972,10 +9416,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -52,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Legal Services",
@@ -8990,10 +9435,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": -17,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Limited-Service Eating Places",
@@ -9023,10 +9469,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": 17,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Lessors Of Real Estate",
@@ -9041,10 +9488,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -1,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Spectator Sports",
@@ -9069,10 +9517,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -14,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [
                     {
                         "industry": "Agencies, Brokerages, And Other Insurance Related Activities",
@@ -9083,9 +9532,10 @@ var data = [
                 "naics_code": "52",
                 "residual": -30,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "General Medical And Surgical Hospitals",
@@ -9110,10 +9560,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -44,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Chemical And Allied Products Merchant Wholesalers",
@@ -9139,9 +9590,10 @@ var data = [
                 "naics_code": "42",
                 "residual": -43,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Other Information Services",
@@ -9157,9 +9609,10 @@ var data = [
                 "naics_code": "51",
                 "residual": -26,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Other Schools And Instruction",
@@ -9179,10 +9632,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -22,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Electric Power Generation, Transmission And Distribution",
@@ -9193,9 +9647,10 @@ var data = [
                 "naics_code": "22",
                 "residual": -12,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Support Activities For Mining",
@@ -9211,7 +9666,7 @@ var data = [
                 "naics_code": "21",
                 "residual": -10,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "New York",
@@ -9226,6 +9681,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Highway, Street, And Bridge Construction",
@@ -9256,9 +9712,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 14,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Specialized Freight Trucking",
@@ -9288,10 +9745,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 7,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "National Security And International Affairs",
@@ -9307,9 +9765,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 35,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Rubber Product Manufacturing",
@@ -9340,9 +9799,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -8,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Grocery Stores",
@@ -9373,9 +9833,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": 44,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Automotive Repair And Maintenance",
@@ -9385,10 +9846,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 11,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -9408,17 +9870,19 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 25,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [],
                 "naics_code": "54",
                 "residual": -12,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Limited-Service Eating Places",
@@ -9433,17 +9897,19 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": 7,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [],
                 "naics_code": "53",
                 "residual": -11,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Other Amusement And Recreation Industries",
@@ -9453,17 +9919,19 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -14,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [],
                 "naics_code": "62",
                 "residual": -20,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Petroleum And Petroleum Products Merchant Wholesalers",
@@ -9479,23 +9947,26 @@ var data = [
                 "naics_code": "42",
                 "residual": -4,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [],
                 "naics_code": "51",
                 "residual": -1,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [],
                 "naics_code": "61",
                 "residual": -20,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Electric Power Generation, Transmission And Distribution",
@@ -9506,9 +9977,10 @@ var data = [
                 "naics_code": "22",
                 "residual": -4,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Nonmetallic Mineral Mining And Quarrying",
@@ -9519,7 +9991,7 @@ var data = [
                 "naics_code": "21",
                 "residual": -8,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "North Carolina",
@@ -9534,6 +10006,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Utility System Construction",
@@ -9559,9 +10032,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 33,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Nonscheduled Air Transportation",
@@ -9581,10 +10055,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 4,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -9595,9 +10070,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -6,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Agriculture, Construction, And Mining Machinery Manufacturing",
@@ -9608,9 +10084,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -3,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Other Support Services",
@@ -9620,17 +10097,19 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -5,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [],
                 "naics_code": "72",
                 "residual": -3,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Other Amusement And Recreation Industries",
@@ -9640,17 +10119,19 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -1,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [],
                 "naics_code": "42",
                 "residual": 3,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Elementary And Secondary Schools",
@@ -9660,10 +10141,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -1,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Electric Power Generation, Transmission And Distribution",
@@ -9674,9 +10156,10 @@ var data = [
                 "naics_code": "22",
                 "residual": -1,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Oil And Gas Extraction",
@@ -9692,7 +10175,7 @@ var data = [
                 "naics_code": "21",
                 "residual": 8,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "North Dakota",
@@ -9707,6 +10190,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Residential Building Construction",
@@ -9737,9 +10221,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -19,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Other Transit And Ground Passenger Transportation",
@@ -9769,10 +10254,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -87,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Administration Of Human Resource Programs",
@@ -9793,9 +10279,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -12,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Spring And Wire Product Manufacturing",
@@ -9826,9 +10313,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -23,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Electronic Shopping And Mail-Order Houses",
@@ -9859,9 +10347,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -18,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Social Advocacy Organizations",
@@ -9891,10 +10380,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -6,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -9924,10 +10414,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -35,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Architectural, Engineering, And Related Services",
@@ -9937,10 +10428,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": -7,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Rooming And Boarding Houses",
@@ -9970,10 +10462,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": 11,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Commercial And Industrial Machinery And Equipment Rental And Leasing",
@@ -9993,10 +10486,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -1,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Spectator Sports",
@@ -10016,10 +10510,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": 8,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [
                     {
                         "industry": "Insurance And Employee Benefit Funds",
@@ -10035,9 +10530,10 @@ var data = [
                 "naics_code": "52",
                 "residual": -9,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Community Food And Housing, And Emergency And Other Relief Services",
@@ -10067,10 +10563,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -3,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Drugs And Druggists' Sundries Merchant Wholesalers",
@@ -10101,9 +10598,10 @@ var data = [
                 "naics_code": "42",
                 "residual": -18,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Other Telecommunications",
@@ -10119,9 +10617,10 @@ var data = [
                 "naics_code": "51",
                 "residual": -5,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Colleges, Universities, And Professional Schools",
@@ -10141,10 +10640,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -19,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Electric Power Generation, Transmission And Distribution",
@@ -10155,9 +10655,10 @@ var data = [
                 "naics_code": "22",
                 "residual": -6,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Nonmetallic Mineral Mining And Quarrying",
@@ -10178,7 +10679,7 @@ var data = [
                 "naics_code": "21",
                 "residual": -6,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Ohio",
@@ -10193,6 +10694,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Highway, Street, And Bridge Construction",
@@ -10223,9 +10725,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 57,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Freight Transportation Arrangement",
@@ -10250,10 +10753,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 114,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Administration Of Human Resource Programs",
@@ -10279,9 +10783,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -1,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Cement And Concrete Product Manufacturing",
@@ -10292,9 +10797,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 32,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Building Material And Supplies Dealers",
@@ -10320,9 +10826,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": 2,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Religious Organizations",
@@ -10342,10 +10849,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -7,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Waste Collection",
@@ -10360,10 +10868,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -2,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Other Professional, Scientific, And Technical Services",
@@ -10378,10 +10887,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": -2,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Drinking Places (Alcoholic Beverages)",
@@ -10391,10 +10901,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": -9,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Spectator Sports",
@@ -10404,10 +10915,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -5,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [
                     {
                         "industry": "Nondepository Credit Intermediation",
@@ -10423,9 +10935,10 @@ var data = [
                 "naics_code": "52",
                 "residual": 4,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Child Day Care Services",
@@ -10440,10 +10953,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -11,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Electrical And Electronic Goods Merchant Wholesalers",
@@ -10474,16 +10988,18 @@ var data = [
                 "naics_code": "42",
                 "residual": 26,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Educational Services",
                 "industries": [],
                 "naics_code": "61",
                 "residual": -7,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Electric Power Generation, Transmission And Distribution",
@@ -10494,9 +11010,10 @@ var data = [
                 "naics_code": "22",
                 "residual": -6,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Support Activities For Mining",
@@ -10517,7 +11034,7 @@ var data = [
                 "naics_code": "21",
                 "residual": 23,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Oklahoma",
@@ -10532,6 +11049,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Highway, Street, And Bridge Construction",
@@ -10562,9 +11080,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -50,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Inland Water Transportation",
@@ -10589,10 +11108,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 9,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -10603,9 +11123,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -20,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Fruit And Vegetable Preserving And Specialty Food Manufacturing",
@@ -10621,9 +11142,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 10,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Home Furnishings Stores",
@@ -10634,9 +11156,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -34,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Personal Care Services",
@@ -10656,10 +11179,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -6,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -10669,10 +11193,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -31,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Traveler Accommodation",
@@ -10687,10 +11212,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": -11,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [
                     {
                         "industry": "Agencies, Brokerages, And Other Insurance Related Activities",
@@ -10701,16 +11227,18 @@ var data = [
                 "naics_code": "52",
                 "residual": -3,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [],
                 "naics_code": "62",
                 "residual": -7,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Beer, Wine, And Distilled Alcoholic Beverage Merchant Wholesalers",
@@ -10726,9 +11254,10 @@ var data = [
                 "naics_code": "42",
                 "residual": -10,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Technical And Trade Schools",
@@ -10743,15 +11272,16 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": 1,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Mining",
                 "industries": [],
                 "naics_code": "21",
                 "residual": -2,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Oregon",
@@ -10766,6 +11296,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Foundation, Structure, And Building Exterior Contractors",
@@ -10796,9 +11327,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 3,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Scenic And Sightseeing Transportation, Land",
@@ -10828,10 +11360,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -22,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -10847,9 +11380,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -5,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Ship And Boat Building",
@@ -10880,9 +11414,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -3,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Automotive Parts, Accessories, And Tire Stores",
@@ -10913,9 +11448,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": 7,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Automotive Repair And Maintenance",
@@ -10940,10 +11476,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -5,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Waste Collection",
@@ -10973,10 +11510,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 56,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Architectural, Engineering, And Related Services",
@@ -10996,10 +11534,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": -5,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Limited-Service Eating Places",
@@ -11024,17 +11563,19 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": 32,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [],
                 "naics_code": "53",
                 "residual": -12,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Other Amusement And Recreation Industries",
@@ -11044,10 +11585,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -19,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [
                     {
                         "industry": "Insurance Carriers",
@@ -11063,9 +11605,10 @@ var data = [
                 "naics_code": "52",
                 "residual": -2,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Psychiatric And Substance Abuse Hospitals",
@@ -11095,10 +11638,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": 1,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Motor Vehicle And Motor Vehicle Parts And Supplies Merchant Wholesalers",
@@ -11129,9 +11673,10 @@ var data = [
                 "naics_code": "42",
                 "residual": 0,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Motion Picture And Video Industries",
@@ -11147,9 +11692,10 @@ var data = [
                 "naics_code": "51",
                 "residual": -6,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Elementary And Secondary Schools",
@@ -11169,10 +11715,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -10,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Natural Gas Distribution",
@@ -11193,9 +11740,10 @@ var data = [
                 "naics_code": "22",
                 "residual": -12,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Support Activities For Mining",
@@ -11216,7 +11764,7 @@ var data = [
                 "naics_code": "21",
                 "residual": -15,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Pennsylvania",
@@ -11231,6 +11779,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Foundation, Structure, And Building Exterior Contractors",
@@ -11261,9 +11810,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -33,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Scheduled Air Transportation",
@@ -11288,10 +11838,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -14,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Administration Of Economic Programs",
@@ -11307,9 +11858,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -49,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Florists",
@@ -11340,9 +11892,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -4,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Personal And Household Goods Repair And Maintenance",
@@ -11357,10 +11910,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 3,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Travel Arrangement And Reservation Services",
@@ -11380,10 +11934,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 3,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Special Food Services",
@@ -11408,10 +11963,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": 16,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Automotive Equipment Rental And Leasing",
@@ -11426,10 +11982,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -3,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Offices Of Other Health Practitioners",
@@ -11449,10 +12006,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -4,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Grocery And Related Product Wholesalers",
@@ -11463,9 +12021,10 @@ var data = [
                 "naics_code": "42",
                 "residual": -11,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Electric Power Generation, Transmission And Distribution",
@@ -11476,7 +12035,7 @@ var data = [
                 "naics_code": "22",
                 "residual": 1,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             }
         ],
         "state": "Puerto Rico",
@@ -11491,20 +12050,23 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [],
                 "naics_code": "23",
                 "residual": -22,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [],
                 "naics_code": "48-49",
                 "residual": -16,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Plastics Product Manufacturing",
@@ -11515,16 +12077,18 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -13,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [],
                 "naics_code": "44-45",
                 "residual": -8,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Drinking Places (Alcoholic Beverages)",
@@ -11534,15 +12098,16 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": -1,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [],
                 "naics_code": "42",
                 "residual": -3,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             }
         ],
         "state": "Rhode Island",
@@ -11557,6 +12122,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Foundation, Structure, And Building Exterior Contractors",
@@ -11587,9 +12153,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 54,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Support Activities For Rail Transportation",
@@ -11614,10 +12181,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 55,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -11633,9 +12201,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 27,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Textile And Fabric Finishing And Fabric Coating Mills",
@@ -11656,9 +12225,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 8,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Gasoline Stations",
@@ -11679,9 +12249,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": 30,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Drycleaning And Laundry Services",
@@ -11691,10 +12262,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -6,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Business Support Services",
@@ -11714,17 +12286,19 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 26,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [],
                 "naics_code": "54",
                 "residual": -1,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Limited-Service Eating Places",
@@ -11734,10 +12308,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": 10,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Spectator Sports",
@@ -11747,10 +12322,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -6,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [
                     {
                         "industry": "Activities Related To Credit Intermediation",
@@ -11766,9 +12342,10 @@ var data = [
                 "naics_code": "52",
                 "residual": -1,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Other Residential Care Facilities",
@@ -11778,10 +12355,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -10,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Electrical And Electronic Goods Merchant Wholesalers",
@@ -11792,9 +12370,10 @@ var data = [
                 "naics_code": "42",
                 "residual": 12,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Elementary And Secondary Schools",
@@ -11804,10 +12383,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -6,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Water, Sewage And Other Systems",
@@ -11818,7 +12398,7 @@ var data = [
                 "naics_code": "22",
                 "residual": -8,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             }
         ],
         "state": "South Carolina",
@@ -11833,6 +12413,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Land Subdivision",
@@ -11858,9 +12439,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 9,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Support Activities For Air Transportation",
@@ -11875,10 +12457,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -2,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "National Security And International Affairs",
@@ -11894,9 +12477,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -1,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Ventilation, Heating, Air-Conditioning, And Commercial Refrigeration Equipment Manufacturing",
@@ -11912,9 +12496,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -11,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Furniture Stores",
@@ -11935,9 +12520,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -5,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Personal Care Services",
@@ -11947,10 +12533,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -3,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Investigation And Security Services",
@@ -11965,10 +12552,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -2,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Other Amusement And Recreation Industries",
@@ -11978,10 +12566,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -2,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Metal And Mineral (Except Petroleum) Merchant Wholesalers",
@@ -11997,9 +12586,10 @@ var data = [
                 "naics_code": "42",
                 "residual": 3,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Radio And Television Broadcasting",
@@ -12010,9 +12600,10 @@ var data = [
                 "naics_code": "51",
                 "residual": 0,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Colleges, Universities, And Professional Schools",
@@ -12022,10 +12613,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": 1,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Water, Sewage And Other Systems",
@@ -12036,7 +12628,7 @@ var data = [
                 "naics_code": "22",
                 "residual": 0,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             }
         ],
         "state": "South Dakota",
@@ -12051,6 +12643,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Foundation, Structure, And Building Exterior Contractors",
@@ -12081,9 +12674,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 63,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Taxi And Limousine Service",
@@ -12113,10 +12707,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -9,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -12132,9 +12727,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 5,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Nonferrous Metal (Except Aluminum) Production And Processing",
@@ -12165,9 +12761,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -1,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Florists",
@@ -12198,9 +12795,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": 34,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Religious Organizations",
@@ -12230,10 +12828,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 15,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -12263,10 +12862,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -1,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Management, Scientific, And Technical Consulting Services",
@@ -12281,10 +12881,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": 2,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Drinking Places (Alcoholic Beverages)",
@@ -12304,10 +12905,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": 5,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Lessors Of Real Estate",
@@ -12317,10 +12919,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -6,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Museums, Historical Sites, And Similar Institutions",
@@ -12335,10 +12938,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": 1,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [
                     {
                         "industry": "Nondepository Credit Intermediation",
@@ -12349,9 +12953,10 @@ var data = [
                 "naics_code": "52",
                 "residual": -5,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Offices Of Dentists",
@@ -12381,10 +12986,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": 3,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Paper And Paper Product Merchant Wholesalers",
@@ -12400,16 +13006,18 @@ var data = [
                 "naics_code": "42",
                 "residual": 0,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [],
                 "naics_code": "51",
                 "residual": -5,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Elementary And Secondary Schools",
@@ -12424,10 +13032,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -12,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Water, Sewage And Other Systems",
@@ -12438,9 +13047,10 @@ var data = [
                 "naics_code": "22",
                 "residual": -5,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Coal Mining",
@@ -12456,9 +13066,10 @@ var data = [
                 "naics_code": "21",
                 "residual": -3,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             },
             {
+                "full_name": "Management Of Companies And Enterprises",
                 "industries": [
                     {
                         "industry": "Management Of Companies And Enterprises",
@@ -12468,8 +13079,8 @@ var data = [
                 ],
                 "naics_code": "55",
                 "residual": 1,
-                "sector": "Management Of Companies And Enterprises",
-                "zoobar": 0
+                "sector": "Management",
+                "sort_order": 0
             }
         ],
         "state": "Tennessee",
@@ -12484,6 +13095,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Building Finishing Contractors",
@@ -12514,9 +13126,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 218,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Scenic And Sightseeing Transportation, Other",
@@ -12546,10 +13159,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 141,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Space Research And Technology",
@@ -12575,9 +13189,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 87,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Iron And Steel Mills And Ferroalloy Manufacturing",
@@ -12608,9 +13223,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 67,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Direct Selling Establishments",
@@ -12641,9 +13257,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": 40,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Automotive Repair And Maintenance",
@@ -12673,10 +13290,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 26,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Investigation And Security Services",
@@ -12706,10 +13324,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 21,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Architectural, Engineering, And Related Services",
@@ -12739,10 +13358,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": 21,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Drinking Places (Alcoholic Beverages)",
@@ -12772,10 +13392,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": 20,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Lessors Of Real Estate",
@@ -12805,10 +13426,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": 10,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Performing Arts Companies",
@@ -12838,10 +13460,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": 10,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Finance And Insurance",
                 "industries": [
                     {
                         "industry": "Activities Related To Credit Intermediation",
@@ -12867,9 +13490,10 @@ var data = [
                 "naics_code": "52",
                 "residual": 6,
                 "sector": "Finance And Insurance",
-                "zoobar": 7
+                "sort_order": 7
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Offices Of Dentists",
@@ -12899,10 +13523,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -2,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Petroleum And Petroleum Products Merchant Wholesalers",
@@ -12933,9 +13558,10 @@ var data = [
                 "naics_code": "42",
                 "residual": -3,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Motion Picture And Video Industries",
@@ -12946,9 +13572,10 @@ var data = [
                 "naics_code": "51",
                 "residual": -5,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Elementary And Secondary Schools",
@@ -12968,10 +13595,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -5,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Electric Power Generation, Transmission And Distribution",
@@ -12987,9 +13615,10 @@ var data = [
                 "naics_code": "22",
                 "residual": -17,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Support Activities For Mining",
@@ -13005,7 +13634,7 @@ var data = [
                 "naics_code": "21",
                 "residual": -70,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Texas",
@@ -13020,6 +13649,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Other Specialty Trade Contractors",
@@ -13050,9 +13680,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -9,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "General Freight Trucking",
@@ -13067,10 +13698,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 6,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -13081,16 +13713,18 @@ var data = [
                 "naics_code": "92",
                 "residual": -6,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [],
                 "naics_code": "31-33",
                 "residual": -15,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Gasoline Stations",
@@ -13101,9 +13735,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -17,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Business, Professional, Labor, Political, And Similar Organizations",
@@ -13113,10 +13748,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -12,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Investigation And Security Services",
@@ -13126,17 +13762,19 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -9,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [],
                 "naics_code": "72",
                 "residual": -9,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Activities Related To Real Estate",
@@ -13146,17 +13784,19 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": 0,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [],
                 "naics_code": "71",
                 "residual": -3,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Offices Of Physicians",
@@ -13171,10 +13811,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": 21,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Miscellaneous Durable Goods Merchant Wholesalers",
@@ -13185,9 +13826,10 @@ var data = [
                 "naics_code": "42",
                 "residual": -12,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Newspaper, Periodical, Book, And Directory Publishers",
@@ -13198,9 +13840,10 @@ var data = [
                 "naics_code": "51",
                 "residual": -2,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Technical And Trade Schools",
@@ -13210,10 +13853,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": 6,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Coal Mining",
@@ -13229,7 +13873,7 @@ var data = [
                 "naics_code": "21",
                 "residual": 7,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Utah",
@@ -13244,6 +13888,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Foundation, Structure, And Building Exterior Contractors",
@@ -13254,9 +13899,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -18,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "General Freight Trucking",
@@ -13266,10 +13912,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -14,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -13280,9 +13927,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 4,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Agriculture, Construction, And Mining Machinery Manufacturing",
@@ -13293,9 +13941,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -9,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Colleges, Universities, And Professional Schools",
@@ -13305,8 +13954,8 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": 0,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             }
         ],
         "state": "Vermont",
@@ -13321,6 +13970,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Building Finishing Contractors",
@@ -13351,9 +14001,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -23,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Other Support Activities For Transportation",
@@ -13383,10 +14034,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 73,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -13407,9 +14059,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 16,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Motor Vehicle Body And Trailer Manufacturing",
@@ -13440,9 +14093,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 10,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Jewelry, Luggage, And Leather Goods Stores",
@@ -13468,9 +14122,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -9,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Automotive Repair And Maintenance",
@@ -13500,10 +14155,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 4,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -13528,10 +14184,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": 15,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Architectural, Engineering, And Related Services",
@@ -13541,10 +14198,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": -21,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Limited-Service Eating Places",
@@ -13564,10 +14222,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": -4,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Consumer Goods Rental",
@@ -13577,10 +14236,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -10,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Spectator Sports",
@@ -13595,10 +14255,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -17,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Medical And Diagnostic Laboratories",
@@ -13623,10 +14284,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": -7,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Furniture And Home Furnishing Merchant Wholesalers",
@@ -13652,9 +14314,10 @@ var data = [
                 "naics_code": "42",
                 "residual": -12,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Other Telecommunications",
@@ -13665,9 +14328,10 @@ var data = [
                 "naics_code": "51",
                 "residual": -6,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Colleges, Universities, And Professional Schools",
@@ -13687,10 +14351,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": 4,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Water, Sewage And Other Systems",
@@ -13706,9 +14371,10 @@ var data = [
                 "naics_code": "22",
                 "residual": -5,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Oil And Gas Extraction",
@@ -13729,9 +14395,10 @@ var data = [
                 "naics_code": "21",
                 "residual": -11,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             },
             {
+                "full_name": "Management Of Companies And Enterprises",
                 "industries": [
                     {
                         "industry": "Management Of Companies And Enterprises",
@@ -13741,8 +14408,8 @@ var data = [
                 ],
                 "naics_code": "55",
                 "residual": 1,
-                "sector": "Management Of Companies And Enterprises",
-                "zoobar": 0
+                "sector": "Management",
+                "sort_order": 0
             }
         ],
         "state": "Virginia",
@@ -13757,6 +14424,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Utility System Construction",
@@ -13787,9 +14455,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -96,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Nonscheduled Air Transportation",
@@ -13819,10 +14488,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -46,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "National Security And International Affairs",
@@ -13843,9 +14513,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 1,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Petroleum And Coal Products Manufacturing",
@@ -13861,23 +14532,26 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -4,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [],
                 "naics_code": "44-45",
                 "residual": -41,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [],
                 "naics_code": "81",
                 "residual": -46,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -13897,10 +14571,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -10,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Full-Service Restaurants",
@@ -13910,10 +14585,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": -22,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Lessors Of Real Estate",
@@ -13923,24 +14599,27 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -10,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [],
                 "naics_code": "71",
                 "residual": -18,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [],
                 "naics_code": "62",
                 "residual": -12,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Miscellaneous Durable Goods Merchant Wholesalers",
@@ -13951,21 +14630,23 @@ var data = [
                 "naics_code": "42",
                 "residual": -9,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [],
                 "naics_code": "51",
                 "residual": -16,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [],
                 "naics_code": "61",
                 "residual": -13,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             }
         ],
         "state": "Washington",
@@ -13980,6 +14661,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Other Specialty Trade Contractors",
@@ -14010,9 +14692,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 27,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Nonscheduled Air Transportation",
@@ -14042,10 +14725,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 60,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Executive, Legislative, And Other General Government Support",
@@ -14071,9 +14755,10 @@ var data = [
                 "naics_code": "92",
                 "residual": 4,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Other Electrical Equipment And Component Manufacturing",
@@ -14099,9 +14784,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": 13,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Vending Machine Operators",
@@ -14112,9 +14798,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -11,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Religious Organizations",
@@ -14129,10 +14816,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": -3,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Employment Services",
@@ -14142,17 +14830,19 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -12,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [],
                 "naics_code": "72",
                 "residual": -6,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Consumer Goods Rental",
@@ -14162,10 +14852,11 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -2,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [
                     {
                         "industry": "Museums, Historical Sites, And Similar Institutions",
@@ -14180,10 +14871,11 @@ var data = [
                 ],
                 "naics_code": "71",
                 "residual": -2,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Residential Mental Retardation, Mental Health And Substance Abuse Facilities",
@@ -14203,10 +14895,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": 3,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Lumber And Other Construction Materials Merchant Wholesalers",
@@ -14222,9 +14915,10 @@ var data = [
                 "naics_code": "42",
                 "residual": -6,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Colleges, Universities, And Professional Schools",
@@ -14234,10 +14928,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -4,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Electric Power Generation, Transmission And Distribution",
@@ -14248,9 +14943,10 @@ var data = [
                 "naics_code": "22",
                 "residual": 9,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Coal Mining",
@@ -14271,7 +14967,7 @@ var data = [
                 "naics_code": "21",
                 "residual": 68,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "West Virginia",
@@ -14286,6 +14982,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Other Specialty Trade Contractors",
@@ -14316,9 +15013,10 @@ var data = [
                 "naics_code": "23",
                 "residual": -43,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Deep Sea, Coastal, And Great Lakes Water Transportation",
@@ -14348,10 +15046,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": -65,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -14367,9 +15066,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -33,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Manufacturing",
                 "industries": [
                     {
                         "industry": "Electric Lighting Equipment Manufacturing",
@@ -14400,9 +15100,10 @@ var data = [
                 "naics_code": "31-33",
                 "residual": -25,
                 "sector": "Manufacturing",
-                "zoobar": 15
+                "sort_order": 15
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Electronics And Appliance Stores",
@@ -14428,9 +15129,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -14,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Automotive Repair And Maintenance",
@@ -14440,10 +15142,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 3,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Administrative and waste services",
                 "industries": [
                     {
                         "industry": "Services To Buildings And Dwellings",
@@ -14453,10 +15156,11 @@ var data = [
                 ],
                 "naics_code": "56",
                 "residual": -32,
-                "sector": "Administrative and waste services",
-                "zoobar": 12
+                "sector": "Public services",
+                "sort_order": 12
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Advertising And Related Services",
@@ -14466,10 +15170,11 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": -6,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [
                     {
                         "industry": "Rv (Recreational Vehicle) Parks And Recreational Camps",
@@ -14484,10 +15189,11 @@ var data = [
                 ],
                 "naics_code": "72",
                 "residual": -11,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Real Estate And Rental And Leasing",
                 "industries": [
                     {
                         "industry": "Activities Related To Real Estate",
@@ -14497,17 +15203,19 @@ var data = [
                 ],
                 "naics_code": "53",
                 "residual": -3,
-                "sector": "Real Estate And Rental And Leasing",
-                "zoobar": 9
+                "sector": "Real Estate",
+                "sort_order": 9
             },
             {
+                "full_name": "Arts, Entertainment, And Recreation",
                 "industries": [],
                 "naics_code": "71",
                 "residual": -14,
-                "sector": "Arts, Entertainment, And Recreation",
-                "zoobar": 8
+                "sector": "Entertainment",
+                "sort_order": 8
             },
             {
+                "full_name": "Health Care And Social Assistance",
                 "industries": [
                     {
                         "industry": "Community Care Facilities For The Elderly",
@@ -14522,10 +15230,11 @@ var data = [
                 ],
                 "naics_code": "62",
                 "residual": 6,
-                "sector": "Health Care And Social Assistance",
-                "zoobar": 6
+                "sector": "Health and Social Care ",
+                "sort_order": 6
             },
             {
+                "full_name": "Wholesale Trade",
                 "industries": [
                     {
                         "industry": "Farm Product Raw Material Merchant Wholesalers",
@@ -14556,9 +15265,10 @@ var data = [
                 "naics_code": "42",
                 "residual": 23,
                 "sector": "Wholesale Trade",
-                "zoobar": 5
+                "sort_order": 5
             },
             {
+                "full_name": "Information",
                 "industries": [
                     {
                         "industry": "Newspaper, Periodical, Book, And Directory Publishers",
@@ -14569,9 +15279,10 @@ var data = [
                 "naics_code": "51",
                 "residual": -3,
                 "sector": "Information",
-                "zoobar": 4
+                "sort_order": 4
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Elementary And Secondary Schools",
@@ -14586,8 +15297,8 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": -6,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             }
         ],
         "state": "Wisconsin",
@@ -14602,6 +15313,7 @@ var data = [
         },
         "sectors": [
             {
+                "full_name": "Construction",
                 "industries": [
                     {
                         "industry": "Building Equipment Contractors",
@@ -14617,9 +15329,10 @@ var data = [
                 "naics_code": "23",
                 "residual": 12,
                 "sector": "Construction",
-                "zoobar": 18
+                "sort_order": 18
             },
             {
+                "full_name": "Transportation and warehousing",
                 "industries": [
                     {
                         "industry": "Couriers",
@@ -14639,10 +15352,11 @@ var data = [
                 ],
                 "naics_code": "48-49",
                 "residual": 67,
-                "sector": "Transportation and warehousing",
-                "zoobar": 17
+                "sector": "Transport and Warehousing",
+                "sort_order": 17
             },
             {
+                "full_name": "Public Administration",
                 "industries": [
                     {
                         "industry": "Justice, Public Order, And Safety Activities",
@@ -14653,9 +15367,10 @@ var data = [
                 "naics_code": "92",
                 "residual": -2,
                 "sector": "Public Administration",
-                "zoobar": 16
+                "sort_order": 16
             },
             {
+                "full_name": "Retail trade",
                 "industries": [
                     {
                         "industry": "Used Merchandise Stores",
@@ -14666,9 +15381,10 @@ var data = [
                 "naics_code": "44-45",
                 "residual": -6,
                 "sector": "Retail trade",
-                "zoobar": 14
+                "sort_order": 14
             },
             {
+                "full_name": "Other Services, Except Public Administration",
                 "industries": [
                     {
                         "industry": "Civic And Social Organizations",
@@ -14678,10 +15394,11 @@ var data = [
                 ],
                 "naics_code": "81",
                 "residual": 0,
-                "sector": "Other Services, Except Public Administration",
-                "zoobar": 13
+                "sector": "Other Services",
+                "sort_order": 13
             },
             {
+                "full_name": "Professional And Technical Services",
                 "industries": [
                     {
                         "industry": "Management, Scientific, And Technical Consulting Services",
@@ -14691,17 +15408,19 @@ var data = [
                 ],
                 "naics_code": "54",
                 "residual": 2,
-                "sector": "Professional And Technical Services",
-                "zoobar": 11
+                "sector": "Professional Services",
+                "sort_order": 11
             },
             {
+                "full_name": "Accommodation And Food Services",
                 "industries": [],
                 "naics_code": "72",
                 "residual": 3,
-                "sector": "Accommodation And Food Services",
-                "zoobar": 10
+                "sector": "Hospitality and Food Services",
+                "sort_order": 10
             },
             {
+                "full_name": "Educational Services",
                 "industries": [
                     {
                         "industry": "Elementary And Secondary Schools",
@@ -14711,10 +15430,11 @@ var data = [
                 ],
                 "naics_code": "61",
                 "residual": 2,
-                "sector": "Educational Services",
-                "zoobar": 3
+                "sector": "Education",
+                "sort_order": 3
             },
             {
+                "full_name": "Utilities",
                 "industries": [
                     {
                         "industry": "Natural Gas Distribution",
@@ -14725,9 +15445,10 @@ var data = [
                 "naics_code": "22",
                 "residual": -1,
                 "sector": "Utilities",
-                "zoobar": 2
+                "sort_order": 2
             },
             {
+                "full_name": "Mining",
                 "industries": [
                     {
                         "industry": "Support Activities For Mining",
@@ -14738,7 +15459,7 @@ var data = [
                 "naics_code": "21",
                 "residual": 7,
                 "sector": "Mining",
-                "zoobar": 1
+                "sort_order": 1
             }
         ],
         "state": "Wyoming",

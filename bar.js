@@ -66,7 +66,8 @@ We also append a G element to group all the elements we're going to draw.
 Using the SVG translate function, we move that group to the right and down 
 to make the margins we want.
 */
-var svg = d3.select("#viz").append("svg")
+var svg = d3.select("#barChart").append("svg")
+    .attr("class","barChart")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -113,7 +114,7 @@ var trans = 1000;
 
 /*Use d3 to populate options of state dropdown. You can add this to the chart function if you need to update these values. We don't... */
 for(d in data){
-    d3.select("#vizSelect")
+    d3.select("#barSelect")
         .append("option")
         .attr("value",data[d].state)
         .text(data[d].state);
@@ -141,7 +142,7 @@ function stateSelect(element){
     return element.state === this.state;
 }
 
-$('#vizSelect').change(function(){
+$('#barSelect').change(function(){
     var check = { state : $(this).val() };
     var dataSelect = data.filter(stateSelect,check);
     /*Call chart function*/
@@ -164,7 +165,7 @@ function chart(data){
     var svg_height = sector_data.length*20,
         pad_height = (sector_data.length+1)*3;
 
-    d3.select("svg")
+    d3.select(".barChart")
         .transition().duration(trans)
         .attr("height",svg_height+pad_height+margin.top+margin.bottom);
 
@@ -274,5 +275,5 @@ function chart(data){
 
 
 /*Initial State*/
-$('#vizSelect').val("Texas");
+$('#barSelect').val("Texas");
 chart(data.filter(stateSelect,{ state : "Texas"}));
