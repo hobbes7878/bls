@@ -87,7 +87,7 @@ gradient.append("svg:stop")
     .attr("stop-color", "#FFCCCC")
     .attr("stop-opacity", 1);
 gradient.append("svg:stop")
-    .attr("offset", "100%")
+    .attr("offset", "60%")
     .attr("stop-color", "#880000")
     .attr("stop-opacity", 1);
 
@@ -100,7 +100,7 @@ var gradient = svg.append("svg:defs")
     .attr("y2", "100%")
     .attr("spreadMethod", "pad");
 gradient.append("svg:stop")
-    .attr("offset", "0%")
+    .attr("offset", "40%")
     .attr("stop-color", "#325C74")
     .attr("stop-opacity", 1);
 gradient.append("svg:stop")

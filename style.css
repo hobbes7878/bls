@@ -17,9 +17,13 @@
   stroke-width:1px;
   shape-rendering: crispEdges;
 }
-
+#barChart .barChart .axis text{
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
 #barChart  .x.axis line{
   stroke: #000;
+
 }
 
 #barChart .y.axis line{
@@ -145,27 +149,26 @@ svg{
 
 .scatterSelect {
 	transition:background-color .5s ease;
-	background-color:#404040;
+	background-color:#F0F0F0;
 	border-radius: 4px;
 	text-indent:0;
 	border:1px solid #000000;
 	display:inline-block;
-	color:#fcfcfc;
-	font-family:'Cousine';
+	color:black;
+	font-family:Arial;
 	font-size:15px;
 	font-style:normal;
 	height:16px;
 	line-height:18px;
-	width:130px;
+	width:110px;
 	text-decoration:none;
 	text-align:center;
 	cursor:pointer;
 	margin-right: 20px;
-	font-weight: bold;
 }
 .scatterSelect:hover{
 	transition:background-color .5s ease;
-	background-color:#668B8B;
+	background-color:#B4CDCD;
 }
 .scatterSelect:active {
 	position:relative;

@@ -225,7 +225,7 @@ sk_circles.enter().append("circle")
   })
 	.append("title")
 	.attr("class","tipsies")
-	.text(function(d) { return '<font size="4px">'+d.state+'</font>' + '<br/>' +'Actual: '+ comma(d.y_plot)+ '<br/>' +"Expected: "+comma(d.x_plot) +'<br/>'+'<font size="2px"> <b>Rate: '+ plus(d3.round((1- (+d.perform))*-100,2))+'%'; });
+	.text(function(d) { return '<font size="5px">'+d.state+'</font>' + '<br/><font size="2px">' +'Actual: '+ comma(d.y_plot)+ '<br/>' +"Expected: "+comma(d.x_plot) +'<br/>'+'Rate: '+ plus(d3.round((1- (+d.perform))*-100,2))+'%'; });
 	scatterplot(data,1);
 }
 
@@ -356,12 +356,12 @@ sk_svg.append("text")
 	.attr("class","guide_text spare")
  	.text("+20%")
  	.style("font-size","11px")
-	.attr("x", w);
+	.attr("x", w-5);
 sk_svg.append("text")
 	.attr("class","guide_text spare")
  	.text("+40%")
  	.style("font-size","11px")
-	.attr("x", w-37);
+	.attr("x", w-40);
 sk_svg.append("text")
 	.attr("class","guide_text spare")
  	.text("+60%")
@@ -370,10 +370,38 @@ sk_svg.append("text")
 sk_svg.append("text")
 	.attr("class","guide_text spare")
  	.text("+99%")
-	.attr("x", w-110)
+	.attr("x", w-115)
 	.style("font-size","10px");
 
 
+
+
+sk_svg.append("circle")
+	.attr("cx",463)
+	.attr("cy",h+20)
+	.attr("r",5)
+	.style("fill","#880000")
+	.style("stroke","black")
+	.style("stroke-width",1);
+sk_svg.append("image")
+	.attr("xlink:href", "cursor.png")
+	.attr("x",436)
+	.attr("y",h+18)
+	.attr("width",30)
+	.attr("height",30);
+
+sk_svg.append("text")
+	.attr("class","chartkey")
+ 	.text("Touch for")
+	.attr("transform", "translate(" + sk_margin.l + "," + sk_margin.t + ")")
+	.attr("x", 420)
+	.attr("y", h);
+sk_svg.append("text")
+	.attr("class","chartkey")
+ 	.text("more info.")
+	.attr("transform", "translate(" + sk_margin.l + "," + sk_margin.t + ")")
+	.attr("x", 422)
+	.attr("y", h+12);
 
 
 var scatterClicker =1;
