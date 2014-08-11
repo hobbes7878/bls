@@ -146,8 +146,13 @@ $('#barSelect').change(function(){
     var check = { state : $(this).val() };
     var dataSelect = data.filter(stateSelect,check);
     /*Call chart function*/
+    tableClear();
     chart(dataSelect);   
+
+
+
 });
+
 
 
 /*Write Chart inside function.*/
@@ -198,7 +203,13 @@ function chart(data){
     /*ENTER elements with default start attributes,ie, unbound with data, and any attributes that won't change as a result of data manipulations, eg, css class, etc.*/
     bars.enter().append("rect")
         .attr("width",0)
-        .attr("x", function(d) { return d.residual < 0 ? x(0) : x(Math.min(0, d.residual)); });
+        .attr("x", function(d) { return d.residual < 0 ? x(0) : x(Math.min(0, d.residual)); })
+        .on("mouseover",function(d){
+            d3.select(".barDead").text(d.residual);
+        })
+        .on("mouseout",function(d){
+            d3.select(".barDead").text(" ");
+        });
 
     /*UPDATE the elements with bound data. This is where you use the data to define those attributes that depend on it. Adding a transition makes d3 change the properties below via a */
     bars
@@ -208,7 +219,8 @@ function chart(data){
       .attr("y", function(d) { return y(d.sector)+5; })
       .attr("height", 20)
       .attr("x", function(d) { return x(Math.min(0, d.residual)); })
-      .attr("width", function(d) { return Math.abs(x(d.residual) - x(0)); });
+      .attr("width", function(d) { return Math.abs(x(d.residual) - x(0)); })
+      ;
 
     /*REMOVE elements not bound with data. For example if we have fewer elements on the next data state.*/
     bars.exit()
@@ -221,7 +233,15 @@ function chart(data){
     swims.enter().append("rect")
         .attr("width",width)
         .attr("x",0)
-        .attr("height","24px");
+        .attr("height","24px")
+        .on("mouseover",function(d){
+            d3.select(".barDead").text(d.residual);
+            industries(d.industries);
+        })
+        .on("mouseout",function(d){
+            d3.select(".barDead").text(" ");
+            tableClear();
+        });
     
     swims
         .attr("y",function(d) { return y(d.sector)+3; })
@@ -229,6 +249,14 @@ function chart(data){
         .moveToBack();
 
     swims.exit().remove();
+
+
+
+
+
+
+
+
 
     /*Here's an example of adding transition effects to enter and exit*/
     var labs = svg.selectAll(".lab")
@@ -273,6 +301,32 @@ function chart(data){
 
 }
 
+function industries(data){
+
+var plus = d3.format("+");
+var table = d3.select(".industriesTable");
+console.log(table);
+
+var inds = table.selectAll(".industries")
+    .data(data);
+
+var divs = inds.enter().append("div")
+    .attr("class", "industries");
+
+inds
+    .text(function(d){return d.industry;})
+    .append("div")
+    .attr("class","number")
+    .text(function(d){return plus(d.pct_oe)+"%";});
+
+
+inds.exit().remove();
+
+}
+
+function tableClear(){
+    d3.select(".industriesTable").html("");
+};
 
 /*Initial State*/
 $('#barSelect').val("Texas");

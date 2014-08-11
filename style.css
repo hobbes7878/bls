@@ -4,7 +4,14 @@
 	font-family: arial, sans-serif;
 	font-size: 18px;
 	background-color: white;
-	margin-left:70px;
+	margin-left:10px;
+}
+
+.barDead{
+	font: 14px 'Roboto',arial,sans-serif;
+	color:#880000;
+	float:right;
+	margin-right:150px;
 }
 
 .axis text {
