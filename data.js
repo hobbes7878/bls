@@ -281,7 +281,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": -2,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -453,7 +453,7 @@ var data = [
                 "industries": [],
                 "naics_code": "21",
                 "residual": -26,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -748,7 +748,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": -23,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -1099,7 +1099,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": -10,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -1592,7 +1592,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": -18,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -1893,7 +1893,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": -8,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -2854,7 +2854,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": -8,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -3485,7 +3485,7 @@ var data = [
                 "industries": [],
                 "naics_code": "21",
                 "residual": -3,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -3963,7 +3963,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": -15,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -4766,7 +4766,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": -4,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -5087,7 +5087,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": 16,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -5359,7 +5359,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": 39,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -5718,7 +5718,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": 4,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -5900,7 +5900,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": 1,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -6988,7 +6988,7 @@ var data = [
                 "industries": [],
                 "naics_code": "21",
                 "residual": -10,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -7424,7 +7424,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": -11,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -7983,7 +7983,7 @@ var data = [
                 "industries": [],
                 "naics_code": "21",
                 "residual": -9,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -8249,7 +8249,7 @@ var data = [
                 "industries": [],
                 "naics_code": "21",
                 "residual": -1,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -8477,7 +8477,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": -12,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -9176,7 +9176,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": 12,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -9665,7 +9665,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": -10,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -9990,7 +9990,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": -8,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -10174,7 +10174,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": 8,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -10678,7 +10678,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": -6,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -11033,7 +11033,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": 23,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -11280,7 +11280,7 @@ var data = [
                 "industries": [],
                 "naics_code": "21",
                 "residual": -2,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -11763,7 +11763,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": -15,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -13065,7 +13065,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": -3,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             },
             {
@@ -13633,7 +13633,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": -70,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -13872,7 +13872,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": 7,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -14394,7 +14394,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": -11,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             },
             {
@@ -14966,7 +14966,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": 68,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],
@@ -15458,7 +15458,7 @@ var data = [
                 ],
                 "naics_code": "21",
                 "residual": 7,
-                "sector": "Mining",
+                "sector": "Mining and Drilling",
                 "sort_order": 1
             }
         ],

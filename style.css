@@ -1,9 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans|Cousine|Roboto|Ubuntu+Mono|Lora);
 
-#vizSelect{
-	font-family: 'Lora',serif;
+#barSelect{
+	font-family: arial, sans-serif;
 	font-size: 18px;
 	background-color: white;
+	margin-left:70px;
 }
 
 .axis text {
@@ -27,7 +28,7 @@
 }
 
 #barChart .y.axis line{
-  stroke:orange;
+  stroke:#9F5F9F;
   stroke-width:2px;
 }
 
@@ -71,19 +72,19 @@ svg{
   stroke: #000;
   stroke-width:2px;
   shape-rendering: crispEdges;
-  opacity: 0.1;
+  opacity: 0.2;
 }
 
 .trendline {
   fill: none;
-  stroke: red;
+  stroke: #9F5F9F;
   stroke-width:1.5px;
   stroke-dasharray: 10,10;
   opacity: 1;
 }
 .trendlinekey {
   fill: none;
-  stroke: red;
+  stroke: #9F5F9F;
   stroke-width:1.5px;
   stroke-dasharray: 5,5;
   
@@ -96,13 +97,13 @@ svg{
   fill: none;
   stroke-width:.5px;
   stroke: grey;
-  opacity: .5;
+  opacity: .6;
 }
 .complinekey {
   fill: none;
   stroke-width:.5px;
   stroke: grey;
-  opacity: .5;
+  opacity: .6;
 }
 
 
@@ -179,15 +180,32 @@ svg{
 	pointer-events:none;
 }
 
-#chartContainer{
+.chartContainer{
 	width:600px;
 }
-#chartContainer h1{
+.chartContainer h1{
 	text-align: center;
 }
-#chartContainer .scatterSelect{
+.chartContainer .scatterSelect{
 	float:right;
 }
-#chartContainer p{
+.chartContainer p{
 	margin:5px 20px 15px;
+}
+
+.barchartContainer{
+	width:400px;
+	margin:0px 20px;
+}
+.barchartContainer h1{
+	text-align: center;
+}
+
+.barchartContainer p{
+	margin:5px 0px 15px;
+}
+
+.barchartContainer #barChart{
+	margin:0 auto;
+
 }

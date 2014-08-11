@@ -24,7 +24,7 @@ d3.selection.prototype.moveToBack = function() {
 
 
 /*Define chart dimensions in px*/
-var margin = {top:40,bottom:60,left:10,right:180},
+var margin = {top:40,bottom:60,left:20,right:180},
     height = 400 - margin.top-margin.bottom,
     width = 400 - margin.left-margin.right;
 

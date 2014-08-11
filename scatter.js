@@ -282,9 +282,9 @@ sk_svg.append("text")
 sk_svg.append("text")
 	.text("Below Expected")
 	.attr("class","scatter_lab")
-	.attr("x", 360)
-	.attr("y", 300);
-sk_svg.append("rect")
+	.attr("x", 280)
+	.attr("y", 325);
+/*sk_svg.append("rect")
 	.attr("class","rectback")
 	.attr("transform", "translate(" + sk_margin.l + "," + sk_margin.t + ")")
 	.attr("x", 100)
@@ -294,12 +294,12 @@ sk_svg.append("rect")
 	.style({
 		fill:"white",
 		opacity:.5
-	});
+	});*/
 sk_svg.append("text")
  	.text("Above Expected")
  	.attr("class","scatter_lab")
-	.attr("x", 150)
-	.attr("y", 125);
+	.attr("x", 220)
+	.attr("y", 90);
 sk_svg.append("line")
 	.attr("transform", "translate(" + sk_margin.l + "," + sk_margin.t + ")")
 	.attr("class", "trendlinekey")
